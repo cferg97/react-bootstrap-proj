@@ -8,10 +8,8 @@ function App() {
   return (
     <div>
       <MyNav/>
-      <Home/>
-      <footer>
-      <MyFooter/>
-      </footer>
+      <Home style={ { height: "100% "}}/>
+      <MyFooter className="fixed-bottom"/>
     </div>
 
   );

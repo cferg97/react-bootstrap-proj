@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 const Welcome = (props) => {
     return ( 
-        <Jumbotron fluid>
+        <Jumbotron className="jumbo" fluid>
             <Container>
                 <h1>{props.title}</h1>
                 <p>
