@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <MyNav/>
-      <Home style={ { height: "100% "}}/>
+      <Home />
       <MyFooter className="fixed-bottom"/>
     </div>
 
